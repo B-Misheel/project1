@@ -1,0 +1,134 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Open+Sans:wght@300&family=Titan+One&display=swap');
+*{
+      margin: 0 auto;
+    padding: 0;
+}
+.navbar{
+     display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 100%;
+}
+.navbar .left_content{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+ .left_content img{
+    width: 25%;
+    height:5vh;
+}
+.navbar .right_content{
+    display: flex;
+    width: 70%;
+    color: #000;
+}
+.right_content .content{
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    transition: 0.5s;
+}
+.right_content .content p:hover {
+  transform: translateY(-10px);
+}
+.right_content .content p{
+   display: flex;
+   font-size: 20px;
+}
+
+.home{
+    background-image: url(/img/back.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    padding-top: 50px;
+    font-family: 'Titan One', regular;
+    text-align: center;   
+}
+.text{
+   padding: 230px;
+}
+.nav-ab{
+    background-color: #5dd9a5;
+    background-image: linear-gradient(#5dd9a5, #a0b9f1,#5dd9a5);
+}
+.about{
+    text-align: center;
+    justify-content: center;
+    font-family: Lilita One, regular;
+}
+.about_text{
+    background-color: rgb(188, 243, 233);
+    height: 30px;
+    justify-content: center;
+    display: flex;
+    width: 80%;
+    margin-top: 35px;
+    align-items: center;
+    
+}
+.about_info{
+    display: flex;
+    
+    padding: 150px;
+    font-family: 'Open Sans';
+}
+.pro {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    background-image: linear-gradient(#5dd9a5, #a0b9f1, #5dd9a5);
+    font-family: 'Open ';
+}
+
+.zurag {
+display: flex;
+flex-wrap: wrap;
+padding: 50px;
+justify-content: center;
+}
+.footer {
+    position: relative;
+    background-image: url(img/foot.jpg);
+    height:25vh;
+    width: 93.4%;
+    padding-top: 50px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .social-icon,
+  .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+    font-size: 30px;
+    font-family: Lilita One, regular;
+  }
+  
+  .social-icon__item, .menu__item {
+    list-style: none;
+  }
+  
+  .social-icon__link {
+    font-size: 2rem;
+    color: #0132a6;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+  }
+  .social-icon__link:hover {
+    transform: translateY(-10px);
+  }
+  
